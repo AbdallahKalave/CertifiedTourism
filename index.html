@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certified Tourism | Dubai Luxury Experiences</title>
+    <meta name="description" content="Experience Dubai like never before. Book premium desert safaris and luxury travel experiences.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Static Global Background -->
+    <div class="global-bg">
+        <img src="assets/desert_background.png" alt="Dubai Desert Background">
+        <div class="global-overlay"></div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="logo">CERTIFIED TOURISM</div>
+        <div class="nav-toggle" id="nav-toggle" onclick="document.getElementById('nav-menu').classList.toggle('show-menu')">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-container" id="nav-menu">
+            <div class="nav-links">
+                <a href="index.html" style="color: var(--color-accent);">Home</a>
+                <a href="packages.html">Packages</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <a href="contact.html" class="nav-cta cta-primary">Book Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Experience Dubai<br>Like Never Before</h1>
+            <div class="hero-actions">
+                <a href="contact.html" class="cta-primary">Book Your Safari</a>
+                <a href="packages.html" class="cta-secondary">Explore Experiences</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="about-container gs-reveal" style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <div class="section-heading" style="margin-bottom: 40px;">
+                <h2>Our Legacy of Excellence</h2>
+            </div>
+            <div class="about-content" style="font-size: 1.25rem; line-height: 1.8; text-align: justify; text-align-last: center; color: #fff;">
+                <p>Certified Tourism is a full fledged Excursion operator within the UAE with 16 years of experience servicing Frequent Individual Travelers (FIT) & Incentive Travelers from all over the globe. Established in the year 2005, Certified tourism has staff with hands on experience with over 27 years of experience put together. Today Certified Tourism is among the choice of many, for organizing adventure, leisure, corporate hospitality events and much more activities of excitement and entertainment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience-Based Package Display -->
+    <section class="experiences section-padding" id="experiences">
+        <div class="section-heading">
+            <h2>Curated Experiences</h2>
+            <p>Discover our selection of luxury desert and city tours designed for unforgettable memories.</p>
+        </div>
+        <div class="experience-grid">
+
+            <!-- Card 1 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1512632578888-169bb134d1b9?auto=format&fit=crop&q=80&w=800" alt="Private Dubai City Tour Full Day">
+                </div>
+                <div class="card-content">
+                    <h3>Private Dubai City Tour Full Day</h3>
+                    <p class="package-cost">USD 300</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1551047721-a3f25608b8d9?auto=format&fit=crop&q=80&w=800" alt="Private Dubai City Tour Half Day">
+                </div>
+                <div class="card-content">
+                    <h3>Private Dubai City Tour Half Day</h3>
+                    <p class="package-cost">USD 175</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1627940183181-e23a4835a6db?auto=format&fit=crop&q=80&w=800" alt="Private Hatta Tour">
+                </div>
+                <div class="card-content">
+                    <h3>Private Hatta Tour</h3>
+                    <p class="package-cost">USD 475</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&q=80&w=800" alt="Private Sunrise Safari">
+                </div>
+                <div class="card-content">
+                    <h3>Private Sunrise Safari</h3>
+                    <p class="package-cost">USD 275</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1582672060674-bc2bd808a8b5?auto=format&fit=crop&q=80&w=800" alt="Shared Morning Safari">
+                </div>
+                <div class="card-content">
+                    <h3>Shared Morning Safari</h3>
+                    <p class="package-cost">USD 45</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?auto=format&fit=crop&q=80&w=800" alt="Private Over Night Safari">
+                </div>
+                <div class="card-content">
+                    <h3>Private Over Night Safari</h3>
+                    <p class="package-cost">USD 275</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1528256336495-2acbb547bf14?auto=format&fit=crop&q=80&w=800" alt="Evening Desert Safari">
+                </div>
+                <div class="card-content">
+                    <h3>Evening Desert Safari</h3>
+                    <p class="package-cost">USD 51</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="experience-card">
+                <div class="card-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1542640244-7e672d6cb466?auto=format&fit=crop&q=80&w=800" alt="Private Abu Dhabi Tour">
+                </div>
+                <div class="card-content">
+                    <h3>Private Abu Dhabi Tour</h3>
+                    <p class="package-cost">USD 325</p>
+                    <button class="cta-text">Find Out More Details <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <!-- Explore More Card -->
+            <a href="packages.html" class="experience-card explore-more-card" style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: rgba(255, 255, 255, 0.15); border: 2px dashed rgba(255, 255, 255, 0.3);">
+                <div class="card-content">
+                    <i class="fa-solid fa-circle-arrow-right" style="font-size: 4rem; color: var(--color-accent); margin-bottom: 20px;"></i>
+                    <h3 style="margin-bottom: 0;">Explore All<br>Experiences</h3>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Scroll-Based Storytelling Section -->
+    <section class="storytelling" id="journey">
+        <div class="story-step" id="step-1">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1542640244-7e672d6cb466?auto=format&fit=crop&q=80&w=1200" alt="Arrival in Desert">
+            </div>
+            <div class="story-text">
+                <span class="step-num">01</span>
+                <h2>The Arrival</h2>
+                <p>Step away from the bustling city and into a world of serene golden sands. Your private chauffeur ensures a seamless transition into the tranquil beauty of the Arabian desert.</p>
+            </div>
+        </div>
+        <div class="story-step reverse" id="step-2">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1541434316656-784860b777a8?auto=format&fit=crop&q=80&w=1200" alt="Dune Bashing">
+            </div>
+            <div class="story-text">
+                <span class="step-num">02</span>
+                <h2>The Thrill</h2>
+                <p>Feel the adrenaline as our expert drivers navigate the majestic dunes. A perfect blend of excitement and safety, delivering a truly unforgettable adventure.</p>
+            </div>
+        </div>
+        <div class="story-step" id="step-3">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1627940183181-e23a4835a6db?auto=format&fit=crop&q=80&w=1200" alt="Sunset Experience">
+            </div>
+            <div class="story-text">
+                <span class="step-num">03</span>
+                <h2>The Golden Hour</h2>
+                <p>As the sun sets, watch the desert transform into a canvas of warm hues. Enjoy a moment of profound peace over a traditional Arabic coffee setup, completely undisturbed.</p>
+            </div>
+        </div>
+        <div class="story-step reverse" id="step-4">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?auto=format&fit=crop&q=80&w=1200" alt="Night Camp">
+            </div>
+            <div class="story-text">
+                <span class="step-num">04</span>
+                <h2>The Night Camp</h2>
+                <p>Settle into our luxury Bedouin-style camp. Relish a gourmet feast under the starlit sky, accompanied by mesmerizing fire performances and cultural entertainment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="team-section section-padding" id="team">
+        <div class="section-heading text-center">
+            <h2>Our Team</h2>
+            <p>Certified Safari Marshals & Professional Guides</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team1.png" alt="Asif">
+                </div>
+                <h4>Asif</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team2.png" alt="Qassim">
+                </div>
+                <h4>Qassim</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team3.png" alt="Qudos">
+                </div>
+                <h4>Qudos</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team4.png" alt="Basheer">
+                </div>
+                <h4>Basheer</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team1.png" alt="Ashfaq">
+                </div>
+                <h4>Ashfaq</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team2.png" alt="Fasial">
+                </div>
+                <h4>Fasial</h4>
+            </div>
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="assets/team3.png" alt="Naushad">
+                </div>
+                <h4>Naushad</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Social Proof -->
+    <section class="trust-proof section-padding" id="reviews">
+        <div class="section-heading text-center">
+            <h2>Guest Stories</h2>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>Rated 4.9/5 by 2,000+ discerning travelers</p>
+        </div>
+        <div class="testimonials-carousel">
+            <!-- Carousel Track -->
+            <div class="carousel-track">
+                <div class="testimonial-card">
+                    <p class="quote">“An absolutely stunning experience from start to finish. The attention to detail and level of luxury exceeded our expectations. The private safari is a must-do.”</p>
+                    <div class="customer-info">
+                        <strong>Sarah Jenkins</strong>
+                        <span>London, UK</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">“The private dinner under the stars was the highlight of our Dubai trip. Perfectly organized and beautifully presented. Highly recommended for couples.”</p>
+                    <div class="customer-info">
+                        <strong>Marcus Chen</strong>
+                        <span>Singapore</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">“Exceptional service! The sunset dune views were breathtaking, and the fleet of cars was incredibly comfortable. I will definitely be booking with them again.”</p>
+                    <div class="customer-info">
+                        <strong>Elena Rodriguez</strong>
+                        <span>Madrid, Spain</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Final CTA -->
+    <footer class="footer">
+        <div class="footer-cta">
+            <h2>Ready for an Unforgettable Journey?</h2>
+            <p>Book your luxury experience today and discover the true essence of Dubai.</p>
+            <a href="contact.html" class="cta-primary">Reserve Your Experience</a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">CERTIFIED TOURISM</div>
+                <p>Curating extraordinary travel experiences in Dubai with unmatched elegance and service.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="packages.html">Our Packages</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+                <div class="link-group">
+                    <h4>Contact Us</h4>
+                    <a href="tel:+97143795773"><i class="fa-solid fa-phone" style="font-size: 0.8rem; margin-right: 8px;"></i>+971 4379 5773</a>
+                    <a href="https://wa.me/971559744777"><i class="fa-brands fa-whatsapp" style="font-size: 0.8rem; margin-right: 8px;"></i>+971 55 974 4777</a>
+                    <a href="mailto:hello@certifiedtourism.com"><i class="fa-solid fa-envelope" style="font-size: 0.8rem; margin-right: 8px;"></i>hello@certifiedtourism.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Certified Tourism. All rights reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
